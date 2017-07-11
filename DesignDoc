@@ -1,0 +1,110 @@
+## Table of Contents
+  * [App Design](#app-design)
+    * [Objective](#objective)
+    * [Audience](#audience)
+    * [Experience](#experience)
+  * [Technical](#technical)
+    * [Screens](#Screens)
+    * [External services](#external-services)
+    * [Views, View Controllers, and other Classes](#Views-View-Controllers-and-other-Classes)
+  * [MVP Milestones](#mvp-milestones)
+    * [Week 1](#week-1)
+    * [Week 2](#week-2)
+    * [Week 3](#week-3)
+    * [Week 4](#week-4)
+    * [Week 5](#week-5)
+    * [Week 6](#week-6)
+
+---
+
+### App Design
+
+#### Objective
+-- MVP --
+Create a seamless check in experience for 9Round members
+Automate the "workout queue" system
+-- Stretch --
+Improve workout experience
+Track member injuries/preferences and alert trainers
+Allow members to check current wait time and request a spot in the queue before they arrive
+Automate the active recovery process with smart suggestions based on client prefs/injuries on the floor
+
+#### Audience
+9Round Gym Owners (and their Clients)
+
+#### Experience
+[how will your users interact with this app?]
+iPad in store
+
+
+### Technical
+
+#### Screens
+* [list the different screens used in the app]
+Main Screen - shows 9Round graphics and view of current stations, wait time, etc..
+Check in screen - on new checkin, screen appears showing four options for client (next available round, double up, next round (after first available round), and custom/trainer decides)
+Trainer screen - shows current clients on the floor, what stations, and what injuries on the floor
+
+#### External services
+* [list which APIs or external services will your app use?]
+Clubready check in ping system
+9Round api if possible
+May need to store client info in own database if I can't get 9Round API access
+
+#### Views, View Controllers, and other Classes
+* Views
+  * [list all views you will need]
+* View Controllers
+  * [list all view controllers you will need]
+* Other Classes
+  * [list any other classes you will need]
+
+#### Data models
+* [list all Parse data models your app will need]
+
+[Back to top ^](#)
+
+---
+
+### MVP Milestones
+[The overall milestones of first usable build, core features, and polish are just suggestions, plan to finish earlier if possible. The last 20% of work tends to take about as much time as the first 80% so do not slack off on your milestones!]
+New Check in prompts user to select next station to start at gives them estimated time to next round, provides info to trainers on workout queue wait times. Allows trainer to manually change the queue order
+
+#### Week 1
+_planing your app_
+MON
+* 3HRS - Research Clubready check in ping, 9Round API access, workout API
+* 2HRS - Update design doc and start planning out classes, views, rough prototype (of flow)
+
+TUES
+* App design prototype and update ADD
+
+WEDS
+* 2HRS - Flesh out the logic for station assignment system
+* 3HRS - Start implementing assignment logic with sig. pad (assuming no 9Round API access)
+
+THURS
+* 5HRS - Implementing assignment logic & getting main check in screen working so that stations are assigned, queue times are calculated and current station statuses are tracked
+
+FRI
+* 5HRS - Work on full design of main screen, check in screen and trainer screen
+
+#### Week 2
+MON
+* 5HRS - Implement trainer view
+
+#### Week 3
+* [goals for the week]
+
+#### Week 4
+* [goals for the week, should be finishing all core features]
+
+#### Week 5
+_starting the polish_
+* [goals for the week]
+
+#### Week 6
+_submitting to the App Store_
+* [goals for the week, should be finishing the polish -- demo day on Saturday!]
+
+[Back to top ^](#)
